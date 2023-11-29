@@ -25,16 +25,16 @@ The input to the script consists of a list of Event objects. Each Event object e
 Upon execution, the script will produce a report in a specified format. The report will include essential details, such as:
 
 - Usernames of currently logged-in users.
-- Timestamps or additional pertinent information about the login events.
+- Timestamps 
 
-## Usage
+<!-- ## Usage
 
 To utilize the script, follow these steps:
 
 1. Provide the list of Event objects as input to the script.
 2. Execute the script using the appropriate Python interpreter.
 
-<!--Example usage:
+Example usage:
 
 ```bash
 python event_log_user_report.py <input_file_path>
